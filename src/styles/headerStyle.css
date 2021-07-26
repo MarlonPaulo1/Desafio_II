@@ -1,0 +1,35 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: var(--header-color);
+    padding: 0 3.125rem;
+}
+
+.profile span {
+    font-size: 1.5rem;
+}
+
+.profile i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--white);
+    margin: 0 4rem;
+}
+
+.profile .login {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background: var(--login);
+    color: var(--white);
+}
+
+.profile .product-link {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 50px;
+    color: var(--white);
+}

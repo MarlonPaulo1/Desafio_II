@@ -1,0 +1,40 @@
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-item input {
+    width: 95%;
+    height: 2.5rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+}
+
+form button {
+    width: 50%;
+    padding: 0.8rem 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    background: var(--login);
+    color: var(--white);
+    cursor: pointer;
+}
